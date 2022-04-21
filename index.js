@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://test:test@cluster0.lvvgf.mongodb.net/sample_airbnb?retryWrites=true&w=majority",
+  "YOUR_MONGODB_URI",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
